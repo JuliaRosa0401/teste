@@ -1,0 +1,60 @@
+/*documento css - Projeto card pagina midia*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+
+    .active {
+        background-color:  #2230add8;
+    }
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-image: url("img.jfif");
+    background-size: cover;
+}
+
+#topo {
+    height: 70%;
+}
+
+#topo ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #dfab48e0;
+}
+
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: rgb(246, 246, 246);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+li a:hover {
+background-color: #2230add8;
+} 
+
+#topo h1 {
+    color: #f3dcb0;
+    font-size: 650%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.1em 0.1em black;
+
+}

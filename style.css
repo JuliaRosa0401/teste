@@ -12,10 +12,41 @@ body {
     background-image: url("img.jfif");
     background-size: cover;
 }
+
+
 #topo {
-    /* background-color: rgb(50, 115, 200); */
-    height: 70%;
+        height: 70%;
 }
+
+#topo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dfab48e0;
+  }
+
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(246, 246, 246);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #2230add8;
+  } 
+
+ .active {
+    background-color:  #2230add8;
+  }
 
 #topo h1 {
     color: #f3dcb0;
